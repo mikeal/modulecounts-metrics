@@ -59,6 +59,7 @@ const argv = yargs
       })
     }
   })
+  .scriptName('modulecounts-metrics')
   .argv
 
 
