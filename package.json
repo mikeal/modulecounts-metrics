@@ -1,0 +1,19 @@
+{
+  "name": "modulecounts-metrics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (https://www.mikealrogers.com/)",
+  "license": "(Apache-2.0 AND MIT)",
+  "dependencies": {
+    "bent": "^1.2.0",
+    "csv-reader": "^1.0.3",
+    "fromentries": "^1.1.0",
+    "mkdirp": "^0.5.1",
+    "yargs": "^12.0.5"
+  }
+}
