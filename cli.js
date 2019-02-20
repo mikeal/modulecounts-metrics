@@ -27,8 +27,10 @@ const run = async argv => {
   let current = {quarter: null, metrics: null}
   let lines = []
   let quarters = {}
+  let thisQuarter = getQuarter(new Date())
   for await (let line of reader) {
     let quarter = getQuarter(line.date)
+    if (quarter === thisQuarter) break
     if (current.quarter !== quarter) {
       if (current.quarter) {
         delete current.metrics.date
